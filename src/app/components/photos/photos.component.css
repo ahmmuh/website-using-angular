@@ -1,0 +1,21 @@
+#image-col{
+    width: 400px;
+    height: 250px;
+}
+
+.card .card-body{
+    font-size: 26px;
+    height: 250px;
+}
+#photoID{
+    text-align: center;
+    font-size: 100px;
+    
+}
+#col-border, #col-border1, #col-border2{
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+    
+
+}

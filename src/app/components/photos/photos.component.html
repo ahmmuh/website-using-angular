@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row" id="break">
+      <div class="col" id="col-border">Photo</div>
+    <div class="col" id="col-border1">Title</div>
+    <div class="col" id="col-border2">ID</div>
+  </div>
+  <div class="row" *ngFor="let photo of photos">
+      <div class="col">
+          <img id="image-col" src={{photo.thumbnailUrl}} />
+        </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body" style="text-transform: capitalize">
+            {{photo.title}}
+        </div>
+      </div>
+     
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-body" id="photoID">
+              {{photo.id}}
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+

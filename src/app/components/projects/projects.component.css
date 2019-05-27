@@ -1,0 +1,15 @@
+.container{
+    background-color: azure;
+    width: 100%;
+
+}
+.row{
+    background-color: #e1e1e1;
+}
+.col{
+    border: 1px solid;
+
+}
+*{
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.navbar{
+    
+    border-bottom-right-radius:20%; 
+    border-top-left-radius:30%;
+    bottom: 2px;
+    height: auto;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+.navbar ul li{
+   padding: 10px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 24px;
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Tangerine', serif;
+    font-size: 90px;
+    border-bottom: 2px dotted white;
+    text-shadow: 2px 2px #ff0000;
+
+}
